@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 62.5%;
+}
+.nav-all{
+  min-height: 100vh;
+  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./hero-bcg.jpeg) center/cover no-repeat;
+}
+.hed-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 99vw;
+
+}
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+.logo{
+  height: 5rem;
+}
+.links{
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.links a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  
+}
+.links li {
+  list-style: none;
+}
+.board{
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+ background: transparent;
+}
+.banner{
+  /* display: grid;
+  gap: 2rem; */
+  width: 30rem;
+}
+.banner h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  
+}
+.banner p {
+  font-size: 1rem;
+  color: aliceblue;
+text-align: center;
+margin-bottom: 2rem;
+}
+.banner a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.4rem;
+  color: aliceblue;
+  border: 2px solid rgb(18, 17, 17);
+  
+  
+ 
+}
+.expo-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+#About ,#Services ,#Tours
+{
+  height: 80vh;
+}
+#Services{
+  background-color: bisque;
+}
+.title{
+  text-align: center;
+  
+}
+.title h2{
+  font-size: 1.2 rem;
+}
